@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="https://th.bing.com/th/id/OIP.pOnfCsTErz9dI3GsCGZEngHaHa?w=210&h=210&c=7&r=0&o=5&dpr=1.5&pid=1.7" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Shopping</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          fontFamily: {
+            Rt: ["Righteous,sans-serif"],
+            Rd: ["Rowdies,sans-serif"],
+            Sr: ["Saira,sans-serif"],
+            In: ["Inter,sans-serif"],
+          },
+          extend: {
+            colors: {
+              "regal-blue": "#243c5a",
+            },
+          },
+        },
+      };
+    </script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&family=Rowdies:wght@300;400;700&family=Saira:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-200 font-Sr">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
