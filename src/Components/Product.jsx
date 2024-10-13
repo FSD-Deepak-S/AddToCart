@@ -9,12 +9,14 @@ const Product = ({ products,cart,setCart,setCartValue }) => {
 
         if (typeof c === "undefined") {
             setCart([...cart,product])
+            alert("Item added to the cart")
             setCartValue(pval=>pval+parseFloat(product.price))
         }else{
             if ( c.id == product.id) {
                 alert("Item already added to the cart")
             }else{
                 setCart([...cart,product])
+                alert("Item added to the cart")
             setCartValue(pval=>pval+parseFloat(product.price))
             }
 

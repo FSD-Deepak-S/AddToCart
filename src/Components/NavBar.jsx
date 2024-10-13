@@ -7,7 +7,8 @@ const NavBar = ({ cart, openCart }) => {
 
   return (
     <div className="shadow-lg fixed z-10 w-full flex justify-between px-5 py-1 bg-white h-16 items-center">
-      <h1 className="font-extrabold text-2xl">Fake Store</h1>
+      <h1 className="font-extrabold text-2xl">Online Shopping</h1>
+      <a href="#" className="font-extrabold">Home</a>
       <div className="flex items-center">
         <button onClick={() => open()} className="flex items-center relative font-extrabold">
           <h1 className="text-xl font-extrabold absolute top-0 left-7">

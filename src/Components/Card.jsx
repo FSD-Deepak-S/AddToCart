@@ -6,7 +6,7 @@ const Card = ({product,addtocart}) => {
     }
     return (
         <div className=' grid justify-items-center p-1 bg-white space-y-3'>
-            <img src={product.image} alt="" srcSet="" className='h-24 w-24'/>
+            <img src={product.image} alt="" srcSet="" className='h-24 w-24 sm:h-36 sm:w-36 lg:h-44 lg:w-44'/>
             
             <h1 className='text-sm w-36 truncate hover:text-wrap '>{product.title}</h1>
             <div className='flex'>
