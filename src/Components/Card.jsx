@@ -5,7 +5,7 @@ const Card = ({product,addtocart}) => {
         addtocart(product)
     }
     return (
-        <div className=' grid justify-items-center p-1 bg-white space-y-3'>
+        <div className='grid justify-items-center py-3 px-2 bg-white space-y-3 shadow-lg'>
             <img src={product.image} alt="" srcSet="" className='h-20 max-w-full m-0'/>
             
             <h1 className='text-sm w-36 truncate hover:text-wrap '>{product.title}</h1>
