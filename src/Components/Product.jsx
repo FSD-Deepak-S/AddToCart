@@ -26,7 +26,7 @@ const Product = ({ products,cart,setCart,setCartValue }) => {
 
 
   return (
-    <div className="flex flex-wrap justify-center gap-1 relative top-10 h-lvh py-10 ">
+    <div className="flex flex-wrap justify-center gap-5 relative top-10 h-lvh py-10 ">
       {products.map((product, index) => {
         return (
           <div key={index}>
